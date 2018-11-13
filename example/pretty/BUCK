@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'pretty', 
+  srcs = [
+    'pretty.cpp', 
+  ], 
+  deps = [
+    '//:rapidjson', 
+  ], 
+)

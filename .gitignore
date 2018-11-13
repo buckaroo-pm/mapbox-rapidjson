@@ -23,3 +23,12 @@ Doxyfile
 Doxyfile.zh-cn
 DartConfiguration.tcl
 *.nupkg
+
+# Buck
+.buckd
+buck-out
+cache
+buckaroo
+buckaroo-packages
+.buckconfig.local
+BUCKAROO_DEPS

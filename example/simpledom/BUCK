@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'simpledom', 
+  srcs = [
+    'simpledom.cpp', 
+  ], 
+  deps = [
+    '//:rapidjson', 
+  ], 
+)
